@@ -2,7 +2,7 @@
    body{
         font-family: Arial, sans-serif;
         background-color: rgb(62, 34, 16);
-        color: rgb(162, 78, 19);
+        color: rgb(166, 74, 8);
         margin: 0;
         padding: 20px;
     }
@@ -51,15 +51,17 @@
         max-width: 1200px;
         margin: auto;
     }
-   #footer {
-  position: fixed; 
-  bottom: 0;
-  width: 100%;  
-    background-color: rgb(62, 34, 16);      
-    color: tan !important;
-       
-       
-	}
+    .text-body-secondary {  
+        bottom: 0;   
+        width: 100%;
+        color: tan !important;
+    }
+    .menu-info-menu {
+        font-style: italic bold !important;
+        color: tan;
+        padding: 10px;
+    }
+   
     /* Start Menu Page */
 	
 	.menu-info {
@@ -88,6 +90,49 @@
     /* start make page */
     .make-info {
         font-size: 1.3rem;
-        color: tan;
+        color: tan !important;
         padding: 10px;
     }
+    .h1 {
+        font-size: 2.5rem;
+        color: tan !important;
+        padding-bottom: 200px;
+    }
+    .h2 {
+        font-size: 2rem;
+        color: tan !important;
+        padding-bottom: 70%;
+        padding-top: 70%;
+
+    }
+    .h3 {
+        font-size: 1.5rem;
+        color: tan !important;
+        padding-bottom: 10px;
+    }
+    .justify-content-center {
+        display: flex;
+        justify-content: center;
+        color:rgba(237, 91, 7, 0.637);
+        padding: 20px;
+    }
+    /* end make page */
+    /* start contact page */
+    .form {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: rgb(62, 34, 16);
+        border-radius: 5px;
+    }
+    /* end contact page */
+    /* start footer */
+    footer {
+        background-color: rgb(62, 34, 16);
+        color: tan;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }   
