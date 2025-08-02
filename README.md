@@ -15,4 +15,4 @@ Bootstrap
 # improvements
  be able to make an order online and pay,
   add items to a cart,
-   like to social medai sistes for business  
+   link to social medai sistes for business  
