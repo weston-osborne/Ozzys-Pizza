@@ -5,4 +5,4 @@
 
 # technologies used (HTML CSS JS Bootstrap)
 
-# improvements; be able to make an order online, and items to a cart, 
+# improvements; be able to make an order online, add items to a cart, 
