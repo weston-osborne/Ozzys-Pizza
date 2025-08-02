@@ -1,73 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Your Own</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="css/make.css">
+  </head>
+  <body>
     <header>
-        <img src="./images/logo1.jpg" alt="Ozzy's Pizza Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="make.html">Create Your Own</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <img src="./images/logo1.jpg" alt="Ozzy's Pizza Logo" class="logo" width="200" height="200">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="menu.html">menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="make.html">make</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></header>
     <h1>Create Your Own Pizza</h1>
     <p>Customize your pizza with your choice of sauce, cheese, and toppings!</p>
     <h1>Choose Your Sauce</h1>
-    <ul>
-        <li>Tomato Sauce</li>
-        <li>BBQ Sauce</li>
-        <li>Alfredo Sauce</li>
-        <li>Pesto Sauce</li>
-        <li>Olive Oil</li>
-        <li>Creamy Garlic Sauce</li>
-        <li>Buffalo Sauce</li>
-    </ul>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+            <label class="form-check-label" for="checkDefault">Tomato Sauce
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkBBQ">
+            <label class="form-check-label" for="checkBBQ">BBQ Sauce
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkAlfredo">
+            <label class="form-check-label" for="checkAlfredo">Alfredo Sauce
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkPesto">
+            <label class="form-check-label" for="checkPesto">Pesto Sauce
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkBuffalo">
+            <label class="form-check-label" for="checkBuffalo">Buffalo Sauce
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkCreamyGarlic">
+            <label class="form-check-label" for="checkCreamyGarlic">Creamy Garlic Sauce
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkOliveOil">
+            <label class="form-check-label" for="checkOliveOil">Olive Oil
+            </label>
+        </div>   
+  
     <h2>Choose Your Cheese</h2>
-    <ul>
-        <li>Mozzarella</li>
-        <li>Provolone</li>
-        <li>Parmesan</li>
-        <li>Feta</li>
-        <li>Ricotta</li>        
-        <li>Asiago</li>
-        <li>Romano</li>
-        <li>Vegan Cheese</li>
-        <li>Cheddar</li>
-        <li>Goat Cheese</li>
-        <li>Fresh Mozzarella</li>
-    </ul>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkMozzarella">
+            <label class="form-check-label" for="checkMozzarella">Mozzarella
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkProvolone">
+            <label class="form-check-label" for="checkProvolone">Provolone
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkParmesan">
+            <label class="form-check-label" for="checkParmesan">Parmesan
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkFeta">
+            <label class="form-check-label" for="checkFeta">Feta
+            </label>
+        </div>
+        <div class="form-check">    
+            <input class="form-check-input" type="checkbox" value="" id="checkRicotta">
+            <label class="form-check-label" for="checkRicotta">Ricotta
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkAsiago">
+            <label class="form-check-label" for="checkAsiago">Asiago
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkRomano">
+            <label class="form-check-label" for="checkRomano">Romano
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkVeganCheese">
+            <label class="form-check-label" for="checkVeganCheese">Vegan Cheese
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkCheddar">
+            <label class="form-check-label" for="checkCheddar">Cheddar
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkGoatCheese">
+            <label class="form-check-label" for="checkGoatCheese">Goat Cheese
+            </label>
+        </div>
+    
     <h2>Choose Your Toppings</h2>
-    <ul>
-        <li>Pepperoni</li>
-        <li>Chicken</li>
-        <li>Bacon</li>
-        <li>Salami</li>
-        <li>Italian Sausage</li>
-        <li>Ham</li>
-        <li>Ground Beef</li>
-        <li>Anchovies</li> 
-        <li>Fresh Tomatoes</li>
-        <li>Red Onions</li>
-        <li>Green Olives</li>
-        <li>Black Olives</li>
-        <li>Bell Peppers</li>
-        <li>Fresh Spinach</li>
-        <li>Fresh Garlic</li>
-        <li>Fresh Basil</li>
-        <li>Mushrooms</li>
-        <li>Onions</li>
-        <li>Green Peppers</li>
-        <li>Spinach</li>
-        <li>Jalapenos</li>
-        <li>Pineapple</li>                                          
-        <li>Fresh Basil</li>
+    <h3>Meats</h3>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkPepperoni">
+           <label class="form-check-label" for="checkPepperoni">Pepperoni
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkChicken">
+           <label class="form-check-label" for="checkChicken">Chicken
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkBacon">
+           <label class="form-check-label" for="checkBacon">Bacon
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkSalami">
+           <label class="form-check-label" for="checkSalami">Salami
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkItalianSausage">
+           <label class="form-check-label" for="checkItalianSausage">Italian Sausage
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkHam">
+           <label class="form-check-label" for="checkHam">Ham
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkGroundBeef">
+           <label class="form-check-label" for="checkGroundBeef">Ground Beef
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkAnchovies">
+           <label class="form-check-label" for="checkAnchovies">Anchovies
+           </label>
+        </div>
+        <h3>Vegetables</h3>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkFreshTomatoes">
+           <label class="form-check-label" for="checkFreshTomatoes">Fresh Tomatoes
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkRedOnions">
+           <label class="form-check-label" for="checkRedOnions">Red Onions
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkGreenOlives">
+           <label class="form-check-label" for="checkGreenOlives">Green Olives
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkBlackOlives">
+           <label class="form-check-label" for="checkBlackOlives">Black Olives
+           </label>  
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkBellPeppers">
+           <label class="form-check-label" for="checkBellPeppers">Bell Peppers
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkFreshSpinach">
+           <label class="form-check-label" for="checkFreshSpinach">Fresh Spinach
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkFreshGarlic">
+           <label class="form-check-label" for="checkFreshGarlic">Fresh Garlic
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkFreshBasil">
+           <label class="form-check-label" for="checkFreshBasil">Fresh Basil
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkmushrooms">
+           <label class="form-check-label" for="checkmushrooms">Mushrooms
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkPineapple">
+           <label class="form-check-label" for="checkPineapple">Pineapple
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkJalapenos">
+           <label class="form-check-label" for="checkJalapenos">Jalapenos
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkGreenPeppers">
+           <label class="form-check-label" for="checkGreenPeppers">Green Peppers
+           </label>
+        </div>
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="checkSpinach">
+           <label class="form-check-label" for="checkSpinach">Spinach
+           </label>
+        </div>
+        
+  
         
     <!-- Form for creating a pizza would go here -->
     <footer>
